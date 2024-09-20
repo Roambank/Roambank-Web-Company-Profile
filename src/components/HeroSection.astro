@@ -1,0 +1,164 @@
+---
+import Container from "./Container.astro";
+---
+
+<div class="relative" id="home">
+  <div
+    aria-hidden="true"
+    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
+  >
+    <div
+      class="blur-[106px] h-56 bg-gradient-to-br from-emerald-500 to-emerald-400 dark:from-emerald-700"
+    >
+    </div>
+    <div
+      class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-emerald-300 dark:to-emerald-600"
+    >
+    </div>
+  </div>
+  <Container>
+    <div class="relative pt-36 ml-auto">
+      <div class="lg:w-2/3 text-center mx-auto">
+        <h1 class="text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+          Roambank
+        </h1>
+        <h2 class="text-slate-100 font-bold text-2xl md:text-3xl xl:text-4xl">
+          Driving a Greener Tomorrow
+        </h2>
+        
+        <p class="mt-8 text-gray-700 dark:text-gray-300">
+          Roambank is a digital platform designed to revolutionize door-to-door
+          trash collection through the use of IoT-based weighing systems,
+          real-time data, and hyperlocal routing. By offering accurate and
+          transparent measurement of collected waste, Roambank ensures fair
+          compensation for 'rombeng' (waste collectors), and provides direct
+          feedback on the value of the materials collected. The platform
+          utilizes geofencing and routing technologies to optimize waste
+          collectors' routes, reducing operational costs and improving service
+          efficiency.
+        </p>
+        <p class="mt-8 text-gray-700 dark:text-gray-300">
+          Roambank directly connects waste collectors with local recycling banks
+          and SMEs focused on recycling, fostering business-to-business (B2B)
+          relationships that strengthen the circular economy. This integration
+          enables small businesses to access valuable raw materials, boosting
+          local entrepreneurship and economic growth.
+        </p>
+        <p class="mt-8 text-gray-700 dark:text-gray-300">
+          Roambank’s competitive edge lies in its hyperlocal approach, which
+          allows for highly tailored operations within specific areas.
+        </p>
+
+        <!-- <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-emerald-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Get started</span
+                      >
+                    </a>
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-emerald-700/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-emerald-50 sm:w-max"
+                    >
+                      <span
+                        class="relative text-base font-semibold text-emerald-700 dark:text-emerald-700"
+                        >Learn more</span
+                      >
+                    </a>
+                </div> -->
+        <div
+          class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-300 sm:flex justify-between"
+        >
+          <div class="text-center flex flex-col items-center gap-2">
+            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
+              HyperLocal
+            </h6>
+            <svg
+              class="text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              width="144"
+              height="144"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-map-pin-check-inside"
+              ><path
+                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+              ></path><path d="m9 10 2 2 4-4"></path>
+            </svg>
+          </div>
+          <div class="text-center flex flex-col items-center gap-2">
+            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
+              Efficient
+            </h6>
+            <svg
+              class="text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              width="144"
+              height="144"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-bike"
+              ><circle cx="18.5" cy="17.5" r="3.5"></circle><circle
+                cx="5.5"
+                cy="17.5"
+                r="3.5"></circle><circle cx="15" cy="5" r="1"></circle><path
+                d="M12 17.5V14l-3-3 4-3 2 3h2"></path>
+            </svg>
+          </div>
+          <div class="text-center flex flex-col items-center gap-2">
+            <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
+              Green
+            </h6>
+            <svg
+              class="text-slate-300"
+              xmlns="http://www.w3.org/2000/svg"
+              width="144"
+              height="144"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-leaf"
+              ><path
+                d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+              ></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                  <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+              </div> -->
+    </div>
+  </Container>
+</div>
